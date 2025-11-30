@@ -18,5 +18,5 @@ def input_boolean(message):
     if x == 'y':
        x = True
     else:
-       x = False
+         x = False
     return x 

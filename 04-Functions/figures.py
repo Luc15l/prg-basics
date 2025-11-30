@@ -1,0 +1,6 @@
+###
+# Draw a square
+#
+def draw_square(lenght):
+    ...
+    ...
