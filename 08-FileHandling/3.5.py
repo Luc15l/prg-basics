@@ -8,8 +8,8 @@ username = input("username: ")
 password = input('password: ')
 
 # pattern (criteria) for username and password
-username_pattern = r'^[a-z]{6,}$'
-password_pattern = r'^[A-Za-z0-9_]{8,}$'
+username_pattern = '^[a-z]{6,}$'
+password_pattern = '^[A-Za-z0-9_]{8,}$'
 
 # check if username and password are ok
 username_match = re.match(username_pattern,username)

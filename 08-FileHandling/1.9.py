@@ -6,10 +6,12 @@
 file_name = 'it_company.csv'
 
 # Position
-job_title = 'Software Engineer'
-liczba=1
-with open(file_name, 'r') as file:
-   for line in file:
+def f(file_name):
+   job_title = 'Software Engineer'
+   liczba=1
+   with open(file_name, 'r') as file:
+    for line in file:
       if job_title in line:
          print(f'{liczba}. {line.strip()}')
          liczba+=1
+f(file_name)
